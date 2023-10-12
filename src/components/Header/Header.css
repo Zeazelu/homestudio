@@ -1,0 +1,66 @@
+@media screen and (max-width: 480px) {
+    .header__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        height: 50px;
+        border-bottom: 1px solid gray;
+        color: white;
+        background-color: rgb(26, 17, 17);
+    }
+    .header__wrapper {
+        display: none;
+    }
+    .header__logo img{
+        height: 60px;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+  
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    
+  }
+  @media screen and (min-width: 1281px) {
+    .header__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 100px;
+        height: 70px;
+        color: white;
+        font-size: 25px;
+        padding: 15px;
+        border-bottom: 1px solid white;
+        background-color: rgb(26, 17, 17);
+    }
+    .header__logo img {
+        height: 70px; 
+        padding-right: 30px;
+    }
+    
+    .header__wrapper {
+        display: flex;
+        gap: 40px;
+        margin-left: 500px;
+        font-size: 25px;
+        cursor: pointer;
+        text-shadow: 2px 2px 2px grey;
+    }
+    
+    .header__wrapper div {
+        color: white;
+        transition: 0.5s;
+    }
+    .header__wrapper div:hover {
+        color: orange;
+    }
+  }

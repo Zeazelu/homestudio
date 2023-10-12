@@ -1,0 +1,8 @@
+.title__container {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    text-decoration: underline;
+    color: rgb(252,90,109);
+    background-color: rgb(241, 242, 243);
+}
