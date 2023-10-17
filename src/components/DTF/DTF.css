@@ -5,6 +5,7 @@
         flex-wrap: wrap;
         align-items: center;
         padding-bottom: 20px;
+        
     }
     .dtf__image {
         width: 350px;
@@ -24,6 +25,11 @@
         font-weight: 300;
         margin: 25px;
     }
+    .dtf__wrapper h1 {
+        font-size: 20px;
+        padding-left: 20px;
+        color: #fc2e76;
+    }
     .dtf__wrapper ul li {
         color: black;
         list-style: none;
@@ -42,15 +48,15 @@
         font-size: 14px;
         background: white;
         justify-content: center;
-        margin: 20px;
+        margin-left: 20px;
     }
     .dtf__link span {
         position: relative;
         display: inline-block;
         z-index: 1;
         transition: 0.5s;
-        width: 80%;
-        padding-left: 12px;
+        width: 345px;
+        padding-left: 5px;
     }
     .dtf__link span:hover {
         color: white;

@@ -23,7 +23,7 @@ function MainPageView() {
         <DTF />
         <Title title="NADRUK FOLIĄ FLEX" />
         <Foliaflex />
-        <Title title="MASZYNY NA KTÓRYCH PRACUJEMY" />
+        <Title title="NASZE MASZYNY" />
         <MachineCard />
         <Contact />
     </div>
