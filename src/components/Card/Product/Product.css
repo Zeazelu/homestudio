@@ -54,7 +54,7 @@
         transition: 0.5s;
 }
     .product__container h2:hover {
-        color: rgb(255, 101, 119);
+        color: #fc2e76;
 }
     .product__container h1 {
         font-size: 20px;
@@ -65,7 +65,7 @@
     .product__container h3 {
         font-size: 30px;
         font-weight: 700;
-        color: rgb(255, 101, 119);
+        color: #fc2e76;
         padding-left: 25px;
         margin-top: 10px;
         margin-bottom: 10px;

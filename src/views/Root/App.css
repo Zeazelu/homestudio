@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
   .container {
-    background-image: url('../../assets/20220809_134928.jpg');
+    background-image: url('../../assets/there-are-threads-and-sewing-tools-on-the-table.jpg');
     background-size:contain;
     background-repeat: no-repeat;
   }
@@ -16,7 +16,7 @@
 }
 @media screen and (min-width: 1281px) {
   .container {
-    background-image: url('../../assets/20220809_134928.jpg');
+    background-image: url('../../assets/there-are-threads-and-sewing-tools-on-the-table.jpg');
     background-size: 100%;
     background-position: left top;
     background-repeat: no-repeat;

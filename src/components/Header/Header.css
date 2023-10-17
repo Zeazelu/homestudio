@@ -61,6 +61,6 @@
         transition: 0.5s;
     }
     .header__wrapper div:hover {
-        color: orange;
+        color: #fc2e76;
     }
   }

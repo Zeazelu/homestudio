@@ -8,6 +8,7 @@ import '../Root/App.css';
 import Title from "../../components/Title/Title";
 import Embroidery from "../../components/Embroidery/Embroidery";
 import DTF from "../../components/DTF/DTF";
+import Foliaflex from "../../components/Foliaflex/Foliaflex";
 
 function MainPageView() {
     return (
@@ -20,6 +21,8 @@ function MainPageView() {
         <Embroidery />
         <Title title="TRANSFER DTF" />
         <DTF />
+        <Title title="NADRUK FOLIĄ FLEX" />
+        <Foliaflex />
         <Title title="MASZYNY NA KTÓRYCH PRACUJEMY" />
         <MachineCard />
         <Contact />
