@@ -1,7 +1,6 @@
 import React from "react";
 import MainPage from "../../components/MainPage/MainPage";
 import About from "../../components/About/About";
-import Card from "../../components/Card/Card";
 import MachineCard from "../../components/MachineCard/MachineCard";
 import Contact from "../../components/Contact/Contact";
 import '../Root/App.css';
@@ -9,6 +8,8 @@ import Title from "../../components/Title/Title";
 import Embroidery from "../../components/Embroidery/Embroidery";
 import DTF from "../../components/DTF/DTF";
 import Foliaflex from "../../components/Foliaflex/Foliaflex";
+import { promotedproducts } from "../../data/Products";
+import PromotedCard from "../../components/PromotedCard/PromotedCard";
 
 function MainPageView() {
     return (
@@ -16,7 +17,7 @@ function MainPageView() {
         <MainPage />
         <About />
         <Title title="NASZE PRODUKTY" />
-        <Card />
+        <PromotedCard products={promotedproducts} />
         <Title title="HAFT KOMPUTEROWY" />
         <Embroidery />
         <Title title="TRANSFER DTF" />
@@ -25,6 +26,7 @@ function MainPageView() {
         <Foliaflex />
         <Title title="NASZE MASZYNY" />
         <MachineCard />
+        <Title title="KONTAKT" />
         <Contact />
     </div>
     )

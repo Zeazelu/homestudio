@@ -5,6 +5,9 @@
         background-color: rgb(255, 101, 119);
         margin: 20px;
     }
+    .machine__container img {
+        width: 350px;
+    }
     .machine__wrapper h1 {
         color: white;
         font-size: 25px;
@@ -20,19 +23,10 @@
         margin-left: 15px;
     }
   }
-  @media screen and (min-width: 481px) and (max-width: 767px) {
-  
-  }
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    
-  }
-  @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    
-  }
-  @media screen and (min-width: 1281px) {
+  @media screen and (min-width: 481px) {
     .machine__container {
         display: flex;
-        background-color: #f71463;
+        background-color: rgb(63, 60, 60);
         margin: 10px 10px;
         flex-basis: 40%;
     }

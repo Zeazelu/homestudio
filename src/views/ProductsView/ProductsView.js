@@ -1,10 +1,11 @@
 import React from "react";
-import Card from "../../components/Card/Card";
+import { allproducts } from "../../data/AllProducts";
+import ProductCard from "../../components/ProductCard/ProductCard";
 
 function ProductsView() {
     return (
-        <div>
-            <Card />
+        <div className="productsview__container">
+            <ProductCard products={allproducts} />
         </div>
     )
 }

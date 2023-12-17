@@ -8,7 +8,7 @@ function About() {
                 <h2>Witaj w naszym świecie unikalnych projektów i wyjątkowej precyzji</h2>
             </div>
             <div className="about__image">
-                <img src={Photo} alt="haft" width="550px" />             
+                <img src={Photo} alt="haft" />             
             </div>
             <div className="about__wrapper">
                 <h1>Nasza Pasja - Tworzenie Rzeczy Wyjątkowych</h1>

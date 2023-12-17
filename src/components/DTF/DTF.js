@@ -17,7 +17,7 @@ function DTF() {
                     <li><span>Nasza produkcja jest efektywna, dzięki czemu możemy dostarczyć Ci spersonalizowane produkty w krótkim czasie.</span></li>
                 </ul>
                 <Link className="dtf__link" to="/dtf">
-                    <span>Kliknij aby zobaczyć wykonane przez nas transfery DTF</span>
+                    <span>Kliknij aby zobaczyć transfery DTF</span>
                 </Link>
             </div>
             <div className="dtf__image">

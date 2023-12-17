@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Embroidery() {
     return (
-        <div className="embroidery__container">
+        <div className="embroidery__container" id="marking">
             <div className="embroidery__image">
                 <img src={Photo} alt="haft" />             
             </div>
@@ -20,7 +20,7 @@ function Embroidery() {
                     <li><span>Hafty na innych tekstyliach</span></li>
                 </ul>
                 <Link to="/embroidery" className="embroidery__link" >
-                    <span>Kliknij aby sprawdzić wykonane przez nas hafty...</span>
+                    <span>Kliknij aby sprawdzić hafty...</span>
                 </Link>
             </div>
         </div>

@@ -4,7 +4,6 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        padding-top: 65px;
     }
     .about__title h2{
         font-size: 17px;
@@ -12,7 +11,7 @@
         font-weight: 500;
     }
     .about__image {
-        width: 350px;
+        width: 80%;
         overflow: hidden;
     }
     .about__image img {
@@ -36,16 +35,7 @@
         margin: 20px;
     }
   }
-  @media screen and (min-width: 481px) and (max-width: 767px) {
-  
-  }
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    
-  }
-  @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    
-  }
-  @media screen and (min-width: 1281px) {
+  @media screen and (min-width: 481px) {
     .about__container {
         display: flex;
         flex-direction: row;
@@ -64,7 +54,7 @@
     }
     .about__wrapper h1 {
         font-size: 30px;
-        color:  #fc2e76;
+        color:  rgb(252,90,109);
     }
     .about__wrapper h2 {
         text-align: justify;
@@ -79,6 +69,7 @@
     }
     .about__container img {
         transition: transform .7s;
+        width: 600px;
     }
     
     .about__container img:hover {
