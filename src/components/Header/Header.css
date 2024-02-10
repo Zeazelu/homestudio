@@ -6,8 +6,8 @@
         align-content: center;
         height: 100px;
         border-bottom: 1px solid gray;
-        color: white;
-        background-color: rgb(26, 17, 17);
+        color: #F8f7f4;
+        background-color: #111111;
     }
     .header__wrapper {
         display: none;
@@ -25,7 +25,7 @@
         align-items: center;
         align-content: center;
         height: 100px;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #F8f7f4;
         background-color: rgb(26, 17, 17);
     }
     .header__logo img {
@@ -41,7 +41,7 @@
         text-shadow: 2px 2px 2px grey;
     }
     .header__wrapper div {
-        color: white;
+        color: #F8f7f4;
         transition: 0.5s;
     }
     .header__wrapper div:hover {
@@ -50,7 +50,7 @@
     }
     .header__wrapper a {
         text-decoration: none;
-        color: white;
+        color: #F8f7f4;
         transition: 0.5s;
     }
     .header__wrapper a:hover {
@@ -66,7 +66,7 @@
         align-items: center;
         align-content: center;
         height: 100px;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #F8f7f4;
         background-color: rgb(26, 17, 17);
     }
     .header__logo img {
@@ -82,7 +82,7 @@
         text-shadow: 2px 2px 2px grey;
     }
     .header__wrapper div {
-        color: white;
+        color: #F8f7f4;
         transition: 0.5s;
     }
     .header__wrapper div:hover {
@@ -91,7 +91,7 @@
     }
     .header__wrapper a {
         text-decoration: none;
-        color: white;
+        color: #F8f7f4;
         transition: 0.5s;
     }
     .header__wrapper a:hover {

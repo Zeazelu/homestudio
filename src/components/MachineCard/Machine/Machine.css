@@ -1,29 +1,57 @@
-@media screen and (max-width: 480px) {
+  @media screen and (max-width: 900px) {
     .machine__container {
         display: flex;
         flex-direction: column;
-        background-color: rgb(255, 101, 119);
-        margin: 20px;
+        background-color: rgb(63, 60, 60);
+        margin: 15px;
+        flex-basis: 70%;
     }
     .machine__container img {
-        width: 350px;
+        width: 100%;
     }
     .machine__wrapper h1 {
-        color: white;
-        font-size: 25px;
+        color: #F8f7f4;
+        font-size: 22px;
         text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.342);
-        margin-left: 15px;
+        margin: 15px;
     }
     .machine__wrapper h2 {
-        color: white;
+        color: #F8f7f4;
         font-weight: 500;
-        font-size: 15px;
-        margin-top: 0;
+        font-size: 13px;
         text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.342);
-        margin-left: 15px;
+        margin: 15px;
+        text-align: justify;
     }
   }
-  @media screen and (min-width: 481px) {
+  
+  @media screen and (min-width: 901px) and (max-width: 1620px) {
+    .machine__container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(63, 60, 60);
+        margin: 20px;
+        flex-basis: 35%;
+    }
+    .machine__container img {
+        width: 100%;
+    }
+    .machine__wrapper h1 {
+        color: #F8f7f4;
+        font-size: 25px;
+        text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.342);
+        margin: 20px;
+    }
+    .machine__wrapper h2 {
+        color: #F8f7f4;
+        font-weight: 500;
+        font-size: 15px;
+        text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.342);
+        margin: 20px;
+        text-align: justify;
+    }
+    }
+  @media screen and (min-width: 1621px) and (max-width: 1785px) {
     .machine__container {
         display: flex;
         background-color: rgb(63, 60, 60);
@@ -41,12 +69,42 @@
         
     }
     .machine__wrapper h1 {
-        color: white;
+        color: #F8f7f4;
         font-size: 25px;
         text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.342);
     }
     .machine__wrapper h2 {
-        color: white;
+        color: #F8f7f4;
+        font-weight: 500;
+        font-size: 15px;
+        margin-top: 0;
+        text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.342);
+    }
+  }
+  @media screen and (min-width: 1786px) {
+    .machine__container {
+        display: flex;
+        background-color: rgb(63, 60, 60);
+        margin: 10px 10px;
+        flex-basis: 45%;
+    }
+    .machine__container img {
+        width: 50%;
+    }
+    .machine__wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        text-align: justify;
+        
+    }
+    .machine__wrapper h1 {
+        color: #F8f7f4;
+        font-size: 25px;
+        text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.342);
+    }
+    .machine__wrapper h2 {
+        color: #F8f7f4;
         font-weight: 500;
         font-size: 15px;
         margin-top: 0;

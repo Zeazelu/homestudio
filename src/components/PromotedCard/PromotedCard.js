@@ -17,11 +17,6 @@ const PromotedCard = ({ products }) => (
                     />
                 ))}
                 </div>
-                <div className="promotedcard__products">
-                <Link className="promotedcard__link" to="/products">
-                    <span>Zobacz więcej produktów...</span>
-                </Link>
-            </div>
         </div>
 )
 

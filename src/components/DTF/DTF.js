@@ -16,9 +16,6 @@ function DTF() {
                     <li><span>Nasze oznakowanie DTF jest trwałe i odporne na zużycie, co gwarantuje długotrwałą satysfakcję.</span></li>
                     <li><span>Nasza produkcja jest efektywna, dzięki czemu możemy dostarczyć Ci spersonalizowane produkty w krótkim czasie.</span></li>
                 </ul>
-                <Link className="dtf__link" to="/dtf">
-                    <span>Kliknij aby zobaczyć transfery DTF</span>
-                </Link>
             </div>
             <div className="dtf__image">
                 <img src={Photo} alt="dtf" width="550px" />             

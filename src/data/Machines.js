@@ -3,6 +3,7 @@ import ZojeB9500 from '../assets/overlock.jpg';
 import ZojeC5000 from '../assets/renderka.jpg';
 import Krafft from '../assets/hafciarka.png';
 import Iris from '../assets/hafciarkairis.png';
+import Krafft1502 from '../assets/hafciarka-dwuglowicowa.jpg'
 
 export const machine = [
     {
@@ -34,5 +35,11 @@ export const machine = [
         name: 'Texi Iris 10',
         detail: 'Hafciarka jednogłowicowa',
         description: 'Hafciarka jednogłowicowa Texi Iris 10 to najwyższej klasy urządzenie, które łączy w sobie funkcjonalność z komfortowym użytkowaniem. Hafciarka wyposażona jest w 10 igieł, co w połączeniu z maksymalnym polem haftu wynoszącym 310 x 210 mm stwarza ogromne możliwości dla wszystkich użytkowników.'
+    },
+    {
+        image: Krafft1502,
+        name: 'KRAFFT KF-CT1502H',
+        detail: 'Hafciarka dwugłowicowa',
+        description: 'Kompaktowa hafciarka KRAFT to propozycja, która daje możliwość haftowania na czapkach jak również na powierzchniach płaskich. Świetnie nadaje się do haftowania gotowej odzieży np. jako hafciarka do wyszywania na koszulkach. Pozwala uzyskać także efekt haftu 3D. Bardzo wysoka jakość wykonania oraz szerokie możliwości wyszywania sprawiają, że Kraft znajduje zastosowanie w bardzo wielu produktach.'
     }
 ]

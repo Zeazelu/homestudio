@@ -19,9 +19,6 @@ function Embroidery() {
                     <li><span>Hafty na obrusach</span></li>
                     <li><span>Hafty na innych tekstyliach</span></li>
                 </ul>
-                <Link to="/embroidery" className="embroidery__link" >
-                    <span>Kliknij aby sprawdzić hafty...</span>
-                </Link>
             </div>
         </div>
     )

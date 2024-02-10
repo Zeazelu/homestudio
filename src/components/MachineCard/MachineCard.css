@@ -2,6 +2,7 @@
   .machinecard__container {
     display: flex;
     flex-direction: row;
+    background-color: #F8f7f4;
   }
   .machinecard__wrapper {
     display: flex;
@@ -14,10 +15,10 @@
   .machinecard__container {
     display: flex;
     flex-direction: row;
+    background-color: #F8f7f4;
   }
   .machinecard__wrapper {
     display: flex;
-    margin: 20px 50px 20px 50px;
     flex-wrap: wrap;
     justify-content: center;
 

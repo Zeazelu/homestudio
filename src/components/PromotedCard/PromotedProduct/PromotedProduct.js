@@ -19,7 +19,6 @@ const PromotedProduct = (props) => (
                     <img src={props.image[2]} alt="promotedproduct"/>   
                 </div>
             </Carousel>
-            
         </div>
 )
 
