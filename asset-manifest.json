@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/homestudio/static/css/main.de364c47.css",
-    "main.js": "/homestudio/static/js/main.6c96e4eb.js",
+    "main.css": "/homestudio/static/css/main.6dbe4b02.css",
+    "main.js": "/homestudio/static/js/main.fa75ada5.js",
     "static/js/787.2d590b99.chunk.js": "/homestudio/static/js/787.2d590b99.chunk.js",
-    "static/media/20230803_170300.jpg": "/homestudio/static/media/20230803_170300.425b0ed67d877730abce.jpg",
+    "static/media/Z1.jpg": "/homestudio/static/media/Z1.b586aad01f97a11e5cde.jpg",
+    "static/media/R3.png": "/homestudio/static/media/R3.241dfb692b3916815088.png",
+    "static/media/R1.png": "/homestudio/static/media/R1.910d08becf67acfc8806.png",
+    "static/media/C1.png": "/homestudio/static/media/C1.32d66cdcbdd3ee8060d2.png",
+    "static/media/R2.png": "/homestudio/static/media/R2.c23226af88121441445c.png",
+    "static/media/C3.png": "/homestudio/static/media/C3.c29391349ae0ecae219f.png",
+    "static/media/Z3.jpg": "/homestudio/static/media/Z3.09521eec181b2af64a09.jpg",
+    "static/media/C2.png": "/homestudio/static/media/C2.b8620185fa035020fc36.png",
+    "static/media/S1.png": "/homestudio/static/media/S1.d81f7547053233ca0949.png",
     "static/media/tailor-machine.jpg": "/homestudio/static/media/tailor-machine.c20c3edf4c310dddb821.jpg",
-    "static/media/20230802_143453.jpg": "/homestudio/static/media/20230802_143453.a4b635f3310f4855cbb7.jpg",
-    "static/media/20230802_143523.jpg": "/homestudio/static/media/20230802_143523.ea04e00b3f1396eee13b.jpg",
+    "static/media/S3.png": "/homestudio/static/media/S3.ee7b711a4789ad7a17a2.png",
+    "static/media/S2.png": "/homestudio/static/media/S2.66d27b40121cda3d2adb.png",
     "static/media/there-are-threads-and-sewing-tools-on-the-table.jpg": "/homestudio/static/media/there-are-threads-and-sewing-tools-on-the-table.42443eeaf38a561425ca.jpg",
+    "static/media/Z2.jpg": "/homestudio/static/media/Z2.08c4f0711ee9e4709a58.jpg",
     "static/media/embroidery.png": "/homestudio/static/media/embroidery.b74ff6f73cf156aebd38.png",
     "static/media/hafciarka.png": "/homestudio/static/media/hafciarka.87606edae7bb53ee03a0.png",
     "static/media/renderka.jpg": "/homestudio/static/media/renderka.1441f15d97fbcd9b2d6c.jpg",
@@ -19,12 +28,12 @@
     "static/media/overlock.jpg": "/homestudio/static/media/overlock.0e459206accee0d43b52.jpg",
     "static/media/stebnowka.png": "/homestudio/static/media/stebnowka.ef0ba85df8c4fb412bee.png",
     "index.html": "/homestudio/index.html",
-    "main.de364c47.css.map": "/homestudio/static/css/main.de364c47.css.map",
-    "main.6c96e4eb.js.map": "/homestudio/static/js/main.6c96e4eb.js.map",
+    "main.6dbe4b02.css.map": "/homestudio/static/css/main.6dbe4b02.css.map",
+    "main.fa75ada5.js.map": "/homestudio/static/js/main.fa75ada5.js.map",
     "787.2d590b99.chunk.js.map": "/homestudio/static/js/787.2d590b99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de364c47.css",
-    "static/js/main.6c96e4eb.js"
+    "static/css/main.6dbe4b02.css",
+    "static/js/main.fa75ada5.js"
   ]
 }
