@@ -1,7 +1,5 @@
 import React from "react";
 import './PromotedCard.css'
-import ScrollToTop from "../ScrollToTop/ScrollToTop"
-import { Link } from "react-router-dom";
 import PromotedProduct from "./PromotedProduct/PromotedProduct";
 
 const PromotedCard = ({ products }) => (
