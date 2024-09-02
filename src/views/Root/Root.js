@@ -1,7 +1,7 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Header from '../../components/Header/Header';
-import MainPageView from '../MainPageView/MainPageView';
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Header from "../../components/Header/Header";
+import MainPageView from "../MainPageView/MainPageView";
 
 function Root() {
   return (
@@ -9,8 +9,6 @@ function Root() {
       <Header />
       <MainPageView />
     </BrowserRouter>
-
-
   );
 }
 

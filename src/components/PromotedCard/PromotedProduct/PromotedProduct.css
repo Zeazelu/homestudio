@@ -1,196 +1,263 @@
 @media screen and (max-width: 480px) {
-    .promotedproduct__container {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        margin: 20px 20px;
-    }
-    .promotedproduct__container h2 {
-        color: rgb(56, 56, 56);
-        margin: 20px 25px;
-    }
-    .promotedproduct__container h1 {
-        font-size: 17px;
-        font-weight: 300;
-        margin: 10px 25px;
-        text-align: justify;
-    }
-    .promotedproduct__container h3 {
-        font-size: 30px;
-        font-weight: 700;
-        color: rgb(250, 76, 96);
-        margin: 10px 25px;
-        text-align: end;
-    }   
-    .carousel-root :first-of-type div {
-        height: 400px;
-        display: flex;
-        justify-content: center;
-    }
-    .carousel-root ul img {
-        height: 100%;
-        object-fit:contain;
-    }
-    .carousel li {
-        height: 120px;
-    }
-    .carousel {
-        display: flex;
-        justify-content: center;
-    }
-    .carousel ul {
-        padding: 0;
-    }
+  .promotedproduct__container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px 20px;
+  }
+  .promotedproduct__container h2 {
+    color: rgb(56, 56, 56);
+    margin: 20px 25px;
+  }
+  .promotedproduct__container h1 {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 10px 25px;
+    text-align: justify;
+  }
+  .promotedproduct__container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(250, 76, 96);
+    margin: 10px 25px;
+    text-align: end;
+  }
+  .carousel-root :first-of-type div {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-root ul img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .carousel li {
+    height: 120px;
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel ul {
+    padding: 0;
+  }
 }
-@media screen and (min-width: 481px) and (max-width: 1920px) {
-    .promotedproduct__container {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        max-width: 450px;
-        flex-wrap: wrap;
-        margin: 20px;
-    }
-        .promotedproduct__container h2 {
-            color: rgb(56, 56, 56);
-            margin: 20px;
-            transition: 0.5s;
-    }
-        .promotedproduct__container h2:hover {
-            color: rgb(252,90,109);
-    }
-        .promotedproduct__container h1 {
-            font-size: 20px;
-            font-weight: 300;
-            margin: 0px 20px 10px 20px;
-            text-align: justify;
-    }
-        .promotedproduct__container h3 {
-            font-size: 30px;
-            font-weight: 700;
-            color: rgb(252,90,109);
-            margin: 0px 20px 20px 20px;
-            text-align: end;
-    }
-    .carousel-root :first-of-type div {
-        height: 400px;
-        display: flex;
-        justify-content: center;
-    }
-    .carousel-root ul img {
-        height: 100%;
-        object-fit:contain;
-    }
-    .carousel li {
-        height: 120px;
-    }
-    .carousel {
-        display: flex;
-        justify-content: center;
-    }
-    .carousel ul {
-        padding: 0;
-    }
+@media (min-width: 481px) and (max-width: 1400px) {
+  .promotedproduct__container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 45%;
+    box-sizing: border-box;
+    margin: 1.7vw;
+  }
+  .promotedproduct__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+  }
+  .promotedproduct__container h2 {
+    color: rgb(56, 56, 56);
+    box-sizing: border-box;
+    padding: 0vw 1vw;
+    transition: 0.5s;
+    min-height: 5vh;
+  }
+  .promotedproduct__container h2:hover {
+    color: rgb(252, 90, 109);
+  }
+  .promotedproduct__container h1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 0vw 1vw;
+    text-align: justify;
+    min-height: 18vh;
+  }
+  .promotedproduct__container h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgb(252, 90, 109);
+    margin: 0px 20px 20px 20px;
+    text-align: end;
+    min-height: 2vh;
+  }
+  .carousel-root :first-of-type div {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-root ul img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .carousel li {
+    height: 120px;
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel ul {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1401px) and (max-width: 1920px) {
+  .promotedproduct__container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 1.7vw;
+  }
+  .promotedproduct__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+  }
+  .promotedproduct__container h2 {
+    color: rgb(56, 56, 56);
+    box-sizing: border-box;
+    padding: 0vw 1vw;
+    transition: 0.5s;
+  }
+  .promotedproduct__container h2:hover {
+    color: rgb(252, 90, 109);
+  }
+  .promotedproduct__container h1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 0vw 1vw;
+    text-align: justify;
+  }
+  .promotedproduct__container h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgb(252, 90, 109);
+    margin: 0px 20px 20px 20px;
+    text-align: end;
+  }
+  .carousel-root :first-of-type div {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-root ul img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .carousel li {
+    height: 120px;
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel ul {
+    padding: 0;
+  }
 }
 @media screen and (min-width: 1921px) and (max-width: 2299px) {
-    .promotedproduct__container {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        max-width: 450px;
-        flex-wrap: wrap;
-        margin: 50px;
-    }
-    .promotedproduct__container h2 {
-        color: rgb(56, 56, 56);
-        margin: 20px;
-        transition: 0.5s;
-    }
-    .promotedproduct__container h2:hover {
-        color: rgb(252,90,109);
-    }
-    .promotedproduct__container h1 {
-        font-size: 20px;
-        font-weight: 300;
-        margin: 0px 20px 10px 20px;
-        text-align: justify;
-    }
-    .promotedproduct__container h3 {
-        font-size: 30px;
-        font-weight: 700;
-        color: rgb(252,90,109);
-        margin: 0px 20px 20px 20px;
-        text-align: end;
-    }
-    .carousel-root :first-of-type div {
-        height: 400px;
-        display: flex;
-        justify-content: center;
-    }
-    .carousel-root ul img {
-        height: 100%;
-        object-fit:contain;
-    }
-    .carousel li {
-        height: 120px;
-    }
-    .carousel {
-        display: flex;
-        justify-content: center;
-    }
-    .carousel ul {
-        padding: 0;
-    }
+  .promotedproduct__container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 450px;
+    flex-wrap: wrap;
+    margin: 50px;
+  }
+  .promotedproduct__container h2 {
+    color: rgb(56, 56, 56);
+    margin: 20px;
+    transition: 0.5s;
+  }
+  .promotedproduct__container h2:hover {
+    color: rgb(252, 90, 109);
+  }
+  .promotedproduct__container h1 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 20px 10px 20px;
+    text-align: justify;
+  }
+  .promotedproduct__container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(252, 90, 109);
+    margin: 0px 20px 20px 20px;
+    text-align: end;
+  }
+  .carousel-root :first-of-type div {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-root ul img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .carousel li {
+    height: 120px;
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel ul {
+    padding: 0;
+  }
 }
-    
-@media screen and (min-width: 2300px) {
-    .promotedproduct__container {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        max-width: 700px;
-        flex-wrap: wrap;
-        margin: 50px;
-    }
 
-    .promotedproduct__container h2 {
-        color: rgb(56, 56, 56);
-        margin: 20px;
-        transition: 0.5s;
-    }
-    .promotedproduct__container h2:hover {
-        color: rgb(252,90,109);
-    }
-    .promotedproduct__container h1 {
-        font-size: 20px;
-        font-weight: 300;
-        margin: 0px 20px 10px 20px;
-        text-align: justify;
-    }
-    .promotedproduct__container h3 {
-        font-size: 30px;
-        font-weight: 700;
-        color: rgb(252,90,109);
-        margin: 0px 20px 20px 20px;
-        text-align: end;
-    }
-    .carousel-root :first-of-type div {
-        height: 400px;
-        display: flex;
-        justify-content: center;
-    }
-    .carousel-root ul img {
-        height: 100%;
-        object-fit:contain;
-    }
-    .carousel li {
-        height: 120px;
-    }
-    .carousel {
-        display: flex;
-        justify-content: center;
-    }
-    .carousel ul {
-        padding: 0;
-    }
+@media screen and (min-width: 2300px) {
+  .promotedproduct__container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 700px;
+    flex-wrap: wrap;
+    margin: 50px;
+  }
+
+  .promotedproduct__container h2 {
+    color: rgb(56, 56, 56);
+    margin: 20px;
+    transition: 0.5s;
+  }
+  .promotedproduct__container h2:hover {
+    color: rgb(252, 90, 109);
+  }
+  .promotedproduct__container h1 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 20px 10px 20px;
+    text-align: justify;
+  }
+  .promotedproduct__container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(252, 90, 109);
+    margin: 0px 20px 20px 20px;
+    text-align: end;
+  }
+  .carousel-root :first-of-type div {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-root ul img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .carousel li {
+    height: 120px;
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel ul {
+    padding: 0;
+  }
 }

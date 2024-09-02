@@ -1,164 +1,163 @@
 @media screen and (max-width: 480px) {
-    .embroidery__container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .embroidery__image {
-        width: 300px;
-        overflow: hidden;
-        margin: 30px 0px 0px 0px;
-    }
-    .embroidery__image img {
-        width: 300px;
-        transition: transform .7s;
-    }
-    .embroidery__image img:hover {
-        transform: scale(1.5);
-    }
-    .embroidery__wrapper h2 {
-        font-size: 15px;
-        text-align: justify;
-        font-weight: 300;
-        margin: 25px;
-    }
-    .embroidery__wrapper ul li {
-        color: black;
-        list-style: none;
-        margin: 10px;
-        border-left: 3px solid rgb(252,90,109);
-        padding-left: 5px;
-        font-weight: 300;
-    }
+  .embroidery__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .embroidery__image {
+    width: 85vw;
+    overflow: hidden;
+    margin: 30px 0px 0px 0px;
+  }
+  .embroidery__image img {
+    width: 85vw;
+    transition: transform 0.7s;
+  }
+  .embroidery__image img:hover {
+    transform: scale(1.5);
+  }
+  .embroidery__wrapper h2 {
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 300;
+    margin: 25px;
+  }
+  .embroidery__wrapper ul li {
+    color: black;
+    list-style: none;
+    margin: 10px;
+    border-left: 3px solid rgb(252, 90, 109);
+    padding-left: 5px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+  .embroidery__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .embroidery__image {
+    overflow: hidden;
+    margin: 40px;
+  }
+  .embroidery__image img {
+    width: 400px;
+    transition: transform 0.7s;
+  }
+  .embroidery__image img:hover {
+    transform: scale(1.5);
   }
 
-  @media screen and (min-width: 481px) and (max-width: 1000px) {
-    .embroidery__container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-
-    }
-    .embroidery__image {
-        overflow: hidden;
-        margin: 40px;
-    }
-    .embroidery__image img {
-        width: 400px;
-        transition: transform .7s;
-    }
-    .embroidery__image img:hover {
-        transform: scale(1.5);
-    }
-
-    .embroidery__wrapper {
-        margin: 20px 0px;
-    }
-
-    .embroidery__wrapper h2 {
-        font-size: 15px;
-        text-align: justify;
-        font-weight: 300;
-        margin: 10px 30px;
-    }
-    .embroidery__wrapper ul li {
-        color: black;
-        list-style: none;
-        margin: 10px;
-        border-left: 3px solid rgb(252,90,109);
-        padding-left: 5px;
-        font-weight: 300;
-    }
+  .embroidery__wrapper {
+    margin: 20px 0px;
   }
-  @media screen and (min-width: 1001px) {
-    .embroidery__container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-grow: 70%;
-        margin: 40px 0px;
-    }
-    .embroidery__wrapper {
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        padding-left: 50px;
-        
-    }
-    .embroidery__wrapper h1 {
-        font-size: 30px;
-        color: #fa8072;
-    }
-    .embroidery__wrapper h2 {
-        text-align: justify;
-        font-size: 15px;
-        font-weight: 400;
-    }
-    
-    .embroidery__image {
-        width: 500px;
-        overflow: hidden;
-    }
-    .embroidery__image img {
-        width: 500px;
-        transition: transform .7s;
-    }
-    
-    .embroidery__container img:hover {
-        transform: scale(1.5);
-    }
 
-    .embroidery__wrapper ul {
-        position: relative;
-    }
-
-    .embroidery__wrapper ul li {
-        position: relative;
-        left: 0;
-        color: black;
-        list-style: none;
-        margin: 4px 0;
-        border-left: 3px solid rgb(252,90,109);
-        transition: 0.5s;
-        cursor: pointer;
-    }
-
-    .embroidery__wrapper ul li:hover {
-        left: 10px;
-    }
-
-    .embroidery__wrapper ul li span {
-        position: relative;
-        padding: 8px;
-        padding-left: 12px;
-        display: inline-block;
-        z-index: 1;
-        transition: 0.5s;
-      }
-      .embroidery__wrapper ul li:hover span {
-        color: #111;
-      }
-      .embroidery__wrapper ul li:before {
-        content: "";
-        position: absolute;
-        width: 50%;
-        height: 100%;
-        background: rgb(252,90,109);
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: 0.5s;
-      }
-      .embroidery__wrapper ul li:hover:before {
-        transform: scaleX(1);
-      }
-      .embroidery__wrapper h4 {
-        text-align: center;
-        margin: 5px;
-        font-weight: 400;
-      }
+  .embroidery__wrapper h2 {
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 300;
+    margin: 10px 30px;
   }
+  .embroidery__wrapper ul li {
+    color: black;
+    list-style: none;
+    margin: 10px;
+    border-left: 3px solid rgb(252, 90, 109);
+    padding-left: 5px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .embroidery__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    gap: 10vh;
+  }
+  .embroidery__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 50px;
+  }
+  .embroidery__wrapper h1 {
+    font-size: 30px;
+    color: #fa8072;
+  }
+  .embroidery__wrapper h2 {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .embroidery__image {
+    width: 500px;
+    overflow: hidden;
+  }
+  .embroidery__image img {
+    width: 500px;
+    transition: transform 0.7s;
+  }
+
+  .embroidery__container img:hover {
+    transform: scale(1.5);
+  }
+
+  .embroidery__wrapper ul {
+    position: relative;
+  }
+
+  .embroidery__wrapper ul li {
+    position: relative;
+    left: 0;
+    color: black;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 3px solid rgb(252, 90, 109);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .embroidery__wrapper ul li:hover {
+    left: 10px;
+  }
+
+  .embroidery__wrapper ul li span {
+    position: relative;
+    padding: 8px;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .embroidery__wrapper ul li:hover span {
+    color: #111;
+  }
+  .embroidery__wrapper ul li:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: rgb(252, 90, 109);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+  }
+  .embroidery__wrapper ul li:hover:before {
+    transform: scaleX(1);
+  }
+  .embroidery__wrapper h4 {
+    text-align: center;
+    margin: 5px;
+    font-weight: 400;
+  }
+}

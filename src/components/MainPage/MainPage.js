@@ -7,8 +7,13 @@ function MainPage() {
       <div className="mainpage__wrapper">
         <h1>HOME STUDIO</h1>
         <h3>Szycie & Haft</h3>
-        <h2>Witaj w naszym świecie unikalnych projektów i wyjątkowej precyzji</h2>
-        <h2>Skontaktuj się z nami i pozwól nam stworzyć coś wyjątkowego dla Ciebie!</h2>
+        <h2 className="text">
+          Witaj w naszym świecie unikalnych projektów i wyjątkowej precyzji
+        </h2>
+        <h2>
+          Skontaktuj się z nami i pozwól nam stworzyć coś wyjątkowego dla
+          Ciebie!
+        </h2>
       </div>
     </div>
   );

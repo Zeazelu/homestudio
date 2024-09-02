@@ -1,59 +1,57 @@
 @media screen and (max-width: 480px) {
-    .contact__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        background-color: rgb(63, 60, 60);
-        height: 750px;
-    }
-    .contact__wrapper h1 {
-        color: #F8f7f4;
-        font-size: 15px;
-        font-weight: 500;
-    }
-    
-    .contact__wrapper h2 {
-        color: rgb(252,90,109);
-    }
-    .contact__wrapper iframe {
-        width: 100px;
-        height: 100px;
-        border: 0; 
-    }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(63, 60, 60);
+    height: 750px;
   }
-  @media screen and (min-width: 481px) {
-    .contact__container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: rgb(63, 60, 60);
-        height: 350px;
-        padding-top: 40px;
-    }
-    .contact__wrapper {
-        display: flex;
-        flex-direction: column;
-        color: #F8f7f4;
-        margin: 15px 15px;
-        width: 15%;
-    }
-    .contact__wrapper a {
-        text-decoration: underline;
-        color: #F8f7f4;
-    }
-    .contact__wrapper h2 {
-        color: rgb(252,90,109);
-        margin-bottom: 10px;
-    }
-    .contact__wrapper h1 {
-        font-size: 15px;
-    }
-    .contact__wrapper iframe {
-        width: 100px;
-        height: 100px;
-        border: 0; 
-    }
-}
+  .contact__wrapper h1 {
+    color: #f8f7f4;
+    font-size: 15px;
+    font-weight: 500;
+  }
 
-  
+  .contact__wrapper h2 {
+    color: rgb(252, 90, 109);
+  }
+  .contact__wrapper iframe {
+    width: 100px;
+    height: 100px;
+    border: 0;
+  }
+}
+@media screen and (min-width: 481px) {
+  .contact__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(63, 60, 60);
+    height: 350px;
+    padding-top: 40px;
+  }
+  .contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #f8f7f4;
+    margin: 15px 15px;
+    width: 15%;
+  }
+  .contact__wrapper a {
+    text-decoration: underline;
+    color: #f8f7f4;
+  }
+  .contact__wrapper h2 {
+    color: rgb(252, 90, 109);
+    margin-bottom: 10px;
+  }
+  .contact__wrapper h1 {
+    font-size: 15px;
+  }
+  .contact__wrapper iframe {
+    width: 100px;
+    height: 100px;
+    border: 0;
+  }
+}

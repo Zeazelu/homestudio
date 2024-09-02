@@ -2,25 +2,23 @@
   .machinecard__container {
     display: flex;
     flex-direction: row;
-    background-color: #F8f7f4;
+    background-color: #f8f7f4;
   }
   .machinecard__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
   }
 }
 @media screen and (min-width: 481px) {
   .machinecard__container {
     display: flex;
     flex-direction: row;
-    background-color: #F8f7f4;
+    background-color: #f8f7f4;
   }
   .machinecard__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
   }
 }
