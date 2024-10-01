@@ -1,10 +1,43 @@
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1,
+h2,
+h3 {
+  opacity: 0;
+  animation: fadeInSlideUp 1s ease forwards;
+}
+
+h1 {
+  animation-delay: 0.2s;
+}
+
+h3 {
+  animation-delay: 0.4s;
+}
+
+.text {
+  animation-delay: 0.6s;
+}
+
+h2:not(.text) {
+  animation-delay: 0.8s;
+}
 @media screen and (max-width: 480px) {
   .mainpage__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 60vh;
     background-image: url("../../assets/there-are-threads-and-sewing-tools-on-the-table.jpg");
     object-fit: fill;
     background-size: cover;
@@ -12,46 +45,15 @@
     padding-top: 10vh;
   }
 
-  @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
-  }
-
   span {
     display: inline-block;
     opacity: 0;
     padding-right: 15px;
-    filter: blur(4px);
   }
-
-  span:nth-child(1) {
-    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(2) {
-    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(3) {
-    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(4) {
-    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  @keyframes fade-in {
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
-  }
-
   .mainpage__wrapper {
     text-align: center;
     color: rgb(235, 226, 226);
-    text-shadow: 4px 4px 4px grey;
+    text-shadow: 1px 1px 1px grey;
   }
 
   .mainpage__wrapper {
@@ -60,17 +62,17 @@
   }
 
   .mainpage__wrapper h1 {
-    font-size: 35px;
+    font-size: 2.4rem;
     margin-bottom: 0;
   }
 
   .mainpage__wrapper h3 {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-top: 5px;
   }
 
   .mainpage__wrapper h2 {
-    font-size: 10px;
+    font-size: 0.8rem;
   }
 }
 
@@ -80,49 +82,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    min-height: 60vh;
     background-image: url("../../assets/there-are-threads-and-sewing-tools-on-the-table.jpg");
     object-fit: fill;
     background-size: cover;
     background-repeat: no-repeat;
   }
-
-  @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
-  }
-
-  span {
-    display: inline-block;
-    opacity: 0;
-    padding-right: 15px;
-    filter: blur(4px);
-  }
-
-  span:nth-child(1) {
-    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(2) {
-    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(3) {
-    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(4) {
-    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  @keyframes fade-in {
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
-  }
-
   .mainpage__wrapper {
     text-align: center;
     color: rgb(235, 226, 226);
@@ -155,7 +120,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     min-height: 100vh;
     background-image: url("../../assets/there-are-threads-and-sewing-tools-on-the-table.jpg");
     object-fit: fill;
@@ -163,65 +127,20 @@
     background-repeat: no-repeat;
   }
 
-  @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
-  }
-
-  span {
-    display: inline-block;
-    opacity: 0;
-    padding-right: 15px;
-    filter: blur(4px);
-  }
-
-  span:nth-child(1) {
-    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(2) {
-    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(3) {
-    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  span:nth-child(4) {
-    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-
-  @keyframes fade-in {
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
-  }
-
   .mainpage__wrapper {
     text-align: center;
-    color: rgb(235, 226, 226);
-    text-shadow: 4px 4px 4px grey;
-  }
-
-  .mainpage__wrapper {
-    transform: scale(0.94);
-    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    color: rgb(241, 241, 241);
+    text-shadow: 2px 2px 2px grey;
+    padding-top: 30vh;
   }
 
   .mainpage__wrapper h1 {
-    font-size: 45px;
+    font-size: 50px;
     margin-bottom: 0;
   }
 
-  .mainpage__wrapper h3 {
-    font-size: 25px;
-    margin-top: 5px;
-  }
-
   .mainpage__wrapper h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -240,13 +159,8 @@
 
   .mainpage__wrapper {
     text-align: center;
-    color: rgb(235, 226, 226);
-    text-shadow: 4px 4px 4px grey;
-  }
-
-  .mainpage__wrapper {
-    transform: scale(0.94);
-    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px grey;
   }
 
   .mainpage__wrapper h1 {

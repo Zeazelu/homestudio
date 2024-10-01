@@ -6,7 +6,6 @@ function MainPage() {
     <div className="mainpage__container">
       <div className="mainpage__wrapper">
         <h1>HOME STUDIO</h1>
-        <h3>Szycie & Haft</h3>
         <h2 className="text">
           Witaj w naszym świecie unikalnych projektów i wyjątkowej precyzji
         </h2>

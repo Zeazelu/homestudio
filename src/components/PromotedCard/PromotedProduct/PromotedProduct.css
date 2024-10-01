@@ -7,7 +7,7 @@
   }
   .promotedproduct__container h2 {
     color: rgb(56, 56, 56);
-    margin: 20px 25px;
+    margin: 20px 15px;
   }
   .promotedproduct__container h1 {
     font-size: 17px;
@@ -60,6 +60,7 @@
     color: rgb(56, 56, 56);
     box-sizing: border-box;
     padding: 0vw 1vw;
+    font-size: 1.3rem;
     transition: 0.5s;
     min-height: 5vh;
   }
@@ -121,6 +122,7 @@
     box-sizing: border-box;
     padding: 0vw 1vw;
     transition: 0.5s;
+    font-size: 23px;
   }
   .promotedproduct__container h2:hover {
     color: rgb(252, 90, 109);

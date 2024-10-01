@@ -5,6 +5,9 @@ import Photo from "../../assets/stickers to clothing.jpg";
 function DTF() {
   return (
     <div className="dtf__container">
+      <div className="dtf__image">
+        <img src={Photo} alt="dtf" width="550px" />
+      </div>
       <div className="dtf__wrapper">
         <h2>
           DTF, czyli Direct to Fabric lub Direct to Garment, to zaawansowana
@@ -44,9 +47,6 @@ function DTF() {
             </span>
           </li>
         </ul>
-      </div>
-      <div className="dtf__image">
-        <img src={Photo} alt="dtf" width="550px" />
       </div>
     </div>
   );

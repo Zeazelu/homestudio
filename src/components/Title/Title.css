@@ -2,8 +2,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 5vh;
-  color: #f8f7f4;
-  background-color: #111111;
+  min-height: 20vh;
   width: 100%;
+  margin-top: 10vh;
+}
+.title__wrapper {
+  padding-top: 10vh;
+  padding-bottom: 4vh;
+  border-top: 1px solid gray;
+  width: 70%;
+  text-align: center;
+}
+.title__wrapper h2 {
+  font-weight: 800;
+  font-size: 34px;
+  color: #333333;
 }

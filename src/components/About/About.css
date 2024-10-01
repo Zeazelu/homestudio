@@ -42,7 +42,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     background-color: #f8f7f4;
+    min-height: 50vh;
   }
   .about__title h2 {
     font-size: 17px;
