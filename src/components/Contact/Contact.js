@@ -4,10 +4,25 @@ import "./Contact.css";
 function Contact() {
   return (
     <div className="contact__container" id="contact">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.127128914351!2d19.984644715894554!3d50.847330066568745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717656bf1234403%3A0x87e9ff41756681e7!2sHome%20Studio%20-%20Szycie%20%26%20Haft!5e0!3m2!1spl!2spl!4v1660051322952!5m2!1spl!2spl"
-        title="googlemaps"
-      ></iframe>
+      <div className="contact__wrapper">
+        <h1>Napisz do nas!</h1>
+        <form className="contact__form">
+          <label>Imię i nazwisko</label>
+          <input></input>
+          <label>Adres email</label>
+          <input></input>
+          <label>Treść zapytania</label>
+          <textarea></textarea>
+        </form>
+        <div className="contact__wrapper__row">
+          <input type="checkbox" />
+          <p>
+            Zgadzam się i akceptuję <b>Regulamin</b> oraz{" "}
+            <b>Politykę Prywatności</b>
+          </p>
+        </div>
+        <button className="contact__button__black">WYŚLIJ WIADOMOŚĆ</button>
+      </div>
     </div>
   );
 }

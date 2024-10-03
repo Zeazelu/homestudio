@@ -1,0 +1,12 @@
+.footer__footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40px;
+  background-color: #333333;
+  width: 100%;
+}
+.footer__footer h1 {
+  color: #f2f2f2;
+  font-size: 1rem;
+}

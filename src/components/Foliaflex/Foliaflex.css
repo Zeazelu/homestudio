@@ -8,7 +8,6 @@
   .foliaflex__image {
     width: 85vw;
     overflow: hidden;
-    margin: 30px 0px;
   }
   .foliaflex__image img {
     width: 85vw;
@@ -28,13 +27,59 @@
     padding-left: 20px;
     color: rgb(252, 90, 109);
   }
+  .foliaflex__wrapper ul {
+    position: relative;
+    padding-left: 10px;
+    width: 90%;
+  }
+  .foliaflex__wrapper h2 {
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 300;
+  }
   .foliaflex__wrapper ul li {
+    position: relative;
+    left: 0;
     color: rgb(10, 10, 10);
     list-style: none;
-    margin: 10px;
+    margin: 10px 0px;
     border-left: 3px solid rgb(252, 90, 109);
-    padding-left: 5px;
-    font-weight: 300;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .foliaflex__wrapper ul li:hover {
+    left: 5px;
+  }
+
+  .foliaflex__wrapper ul li span {
+    position: relative;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .foliaflex__wrapper ul li:hover span {
+    color: #111;
+  }
+  .foliaflex__wrapper ul li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(252, 90, 109);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+    z-index: 0;
+  }
+  .foliaflex__wrapper ul li:hover:before {
+    transform: scaleX(1);
+  }
+  .foliaflex__wrapper h4 {
+    text-align: center;
+    margin: 5px;
+    font-weight: 400;
   }
 }
 
@@ -72,7 +117,7 @@
   .foliaflex__wrapper ul li {
     color: rgb(10, 10, 10);
     list-style: none;
-    margin: 10px;
+    margin: 5px;
     border-left: 3px solid rgb(252, 90, 109);
     padding-left: 5px;
     font-weight: 300;

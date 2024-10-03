@@ -10,6 +10,7 @@ import DTF from "../../components/DTF/DTF";
 import Foliaflex from "../../components/Foliaflex/Foliaflex";
 import { promotedproducts } from "../../data/Products";
 import PromotedCard from "../../components/PromotedCard/PromotedCard";
+import Footer from "../../components/Footer/Footer";
 
 function MainPageView() {
   return (
@@ -28,6 +29,7 @@ function MainPageView() {
       <MachineCard />
       <Title title="Kontakt" />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -4,7 +4,6 @@
     flex-direction: column;
     background-color: rgb(63, 60, 60);
     margin: 15px;
-    flex-basis: 70%;
   }
   .machine__container img {
     width: 100%;
@@ -12,14 +11,12 @@
   .machine__wrapper h1 {
     color: #f8f7f4;
     font-size: 22px;
-    text-shadow: 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.342);
     margin: 15px;
   }
   .machine__wrapper h2 {
     color: #f8f7f4;
     font-weight: 500;
     font-size: 13px;
-    text-shadow: 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.342);
     margin: 15px;
     text-align: justify;
   }
