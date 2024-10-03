@@ -1,6 +1,6 @@
 import React from "react";
 import "./Embroidery.css";
-import Photo from "../../assets/embroidery.png";
+import Photo from "../../assets/embroidery.webp";
 
 function Embroidery() {
   return (

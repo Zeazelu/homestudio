@@ -1,6 +1,6 @@
 import React from "react";
 import "./DTF.css";
-import Photo from "../../assets/stickers to clothing.jpg";
+import Photo from "../../assets/stickers to clothing.webp";
 
 function DTF() {
   return (

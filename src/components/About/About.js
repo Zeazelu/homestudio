@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../../assets/tailor-machine.jpg";
+import Photo from "../../assets/tailor-machine.webp";
 import "./About.css";
 function About() {
   return (
