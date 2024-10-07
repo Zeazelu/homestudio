@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homestudio/static/css/main.386e805e.css",
-    "main.js": "/homestudio/static/js/main.22dac411.js",
+    "main.css": "/homestudio/static/css/main.3441c7cd.css",
+    "main.js": "/homestudio/static/js/main.98bec733.js",
     "static/js/787.2d590b99.chunk.js": "/homestudio/static/js/787.2d590b99.chunk.js",
     "static/media/Z1.webp": "/homestudio/static/media/Z1.1fad671bdbd81d323a45.webp",
     "static/media/Z3.webp": "/homestudio/static/media/Z3.ef15e6a8a71adc6df2fc.webp",
@@ -18,22 +18,22 @@
     "static/media/there-are-threads-and-sewing-tools-on-the-table.webp": "/homestudio/static/media/there-are-threads-and-sewing-tools-on-the-table.74052417c327ba868de7.webp",
     "static/media/tailor-machine.webp": "/homestudio/static/media/tailor-machine.4b1a4329ac7a4ab4dccd.webp",
     "static/media/logo.png": "/homestudio/static/media/logo.3bac0796781bbb26be49.png",
+    "static/media/overlock.webp": "/homestudio/static/media/overlock.45ef5131f4fe94a39666.webp",
     "static/media/embroidery.webp": "/homestudio/static/media/embroidery.98b446d267f451873791.webp",
     "static/media/stickers to clothing.webp": "/homestudio/static/media/stickers to clothing.299becb8ceb4079caac8.webp",
     "static/media/cutting out stickers.webp": "/homestudio/static/media/cutting out stickers.fcdc25f4b1570994934a.webp",
     "static/media/hafciarka-dwuglowicowa.webp": "/homestudio/static/media/hafciarka-dwuglowicowa.da776e7a58611412c99f.webp",
     "static/media/hafciarka.webp": "/homestudio/static/media/hafciarka.4be52c7185a11feb16c6.webp",
     "static/media/hafciarkairis.webp": "/homestudio/static/media/hafciarkairis.56f697c0402b57518d82.webp",
-    "static/media/overlock.webp": "/homestudio/static/media/overlock.c59cc6f20be3a78814d3.webp",
     "static/media/renderka.webp": "/homestudio/static/media/renderka.9667bdfbee557e58c5f2.webp",
     "static/media/stebnowka.webp": "/homestudio/static/media/stebnowka.402d9ef650e5367a7016.webp",
     "index.html": "/homestudio/index.html",
-    "main.386e805e.css.map": "/homestudio/static/css/main.386e805e.css.map",
-    "main.22dac411.js.map": "/homestudio/static/js/main.22dac411.js.map",
+    "main.3441c7cd.css.map": "/homestudio/static/css/main.3441c7cd.css.map",
+    "main.98bec733.js.map": "/homestudio/static/js/main.98bec733.js.map",
     "787.2d590b99.chunk.js.map": "/homestudio/static/js/787.2d590b99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.386e805e.css",
-    "static/js/main.22dac411.js"
+    "static/css/main.3441c7cd.css",
+    "static/js/main.98bec733.js"
   ]
 }
