@@ -1,9 +1,10 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 480px) {
   .machine__container {
     display: flex;
     flex-direction: column;
+    margin: 2vh 0vh 0vh 0vh;
     background-color: rgb(63, 60, 60);
-    margin: 15px;
+    width: 90%;
   }
   .machine__container img {
     width: 100%;
@@ -21,7 +22,30 @@
     text-align: justify;
   }
 }
-
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .machine__container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(63, 60, 60);
+    width: 60%;
+    margin: 2vh 0vh 0vh 0vh;
+  }
+  .machine__container img {
+    width: 100%;
+  }
+  .machine__wrapper h1 {
+    color: #f8f7f4;
+    font-size: 22px;
+    margin: 15px;
+  }
+  .machine__wrapper h2 {
+    color: #f8f7f4;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 15px;
+    text-align: justify;
+  }
+}
 @media screen and (min-width: 901px) and (max-width: 1620px) {
   .machine__container {
     display: flex;

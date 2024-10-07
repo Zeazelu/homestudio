@@ -9,7 +9,7 @@ function MainPage() {
         <h2 className="text">
           Witaj w naszym świecie unikalnych projektów i wyjątkowej precyzji
         </h2>
-        <h2>
+        <h2 className="text">
           Skontaktuj się z nami i pozwól nam stworzyć coś wyjątkowego dla
           Ciebie!
         </h2>
