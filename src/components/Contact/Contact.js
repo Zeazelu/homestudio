@@ -104,7 +104,7 @@ function Contact() {
               <b>Politykę Prywatności</b>
             </p>
           </div>
-          <ReCAPTCHA sitekey={SITEKEY} onChange={onChange} />
+          <ReCAPTCHA sitekey={SITEKEY_LOCALHOST} onChange={onChange} />
           <button type="submit" className="contact__button__black">
             WYŚLIJ WIADOMOŚĆ
           </button>

@@ -16,6 +16,7 @@
     border-radius: 50px;
     min-height: 40%;
     padding: 5vh 0vh;
+    margin-bottom: 5vh;
   }
   .contact__wrapper h1 {
     width: 90%;
@@ -29,7 +30,7 @@
     width: 90%;
   }
   .contact__form input[type="checkbox"] {
-    width: 20px;
+    width: 15px;
   }
   .contact__wrapper__row {
     display: flex;
@@ -69,10 +70,14 @@
     font-weight: 700;
     cursor: pointer;
     transition: 0.5s;
+    margin-top: 5px;
   }
   .contact__button__black:hover {
     background-color: #555555;
     border: solid 1px black;
+  }
+  .contact__wrapper p {
+    font-size: 0.6rem;
   }
 }
 @media screen and (min-width: 481px) {
@@ -94,6 +99,7 @@
     border-radius: 50px;
     height: 40%;
     padding: 5vh 0vh;
+    margin-bottom: 5vh;
   }
   .contact__wrapper h1 {
     width: 60%;
@@ -148,6 +154,7 @@
     font-weight: 700;
     cursor: pointer;
     transition: 0.5s;
+    margin-top: 5px;
   }
   .contact__button__black:hover {
     background-color: #555555;
